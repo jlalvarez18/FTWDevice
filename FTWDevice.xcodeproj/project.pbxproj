@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A4C21F415D5782400C82E61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4C21F315D5782400C82E61 /* Cocoa.framework */; };
+		1A4C21FE15D5782400C82E61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C21FC15D5782400C82E61 /* InfoPlist.strings */; };
+		1A4C220015D5782400C82E61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C21FF15D5782400C82E61 /* main.m */; };
+		1A4C220415D5782400C82E61 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C220215D5782400C82E61 /* Credits.rtf */; };
+		1A4C220715D5782400C82E61 /* FTWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C220615D5782400C82E61 /* FTWAppDelegate.m */; };
+		1A4C220A15D5782400C82E61 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C220815D5782400C82E61 /* MainMenu.xib */; };
+		1A4C221215D5782400C82E61 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4C221115D5782400C82E61 /* SenTestingKit.framework */; };
+		1A4C221315D5782400C82E61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4C21F315D5782400C82E61 /* Cocoa.framework */; };
+		1A4C221B15D5782400C82E61 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1A4C221915D5782400C82E61 /* InfoPlist.strings */; };
+		1A4C221E15D5782400C82E61 /* FTWDeviceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C221D15D5782400C82E61 /* FTWDeviceTests.m */; };
+		1A4C222D15D5792400C82E61 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C222C15D5792400C82E61 /* NSString+MD5.m */; };
+		1A4C222E15D5792400C82E61 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C222C15D5792400C82E61 /* NSString+MD5.m */; };
+		1A4C223215D57A3200C82E61 /* FTWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C223115D57A3200C82E61 /* FTWDevice.m */; };
+		1A4C223315D57A3200C82E61 /* FTWDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A4C223115D57A3200C82E61 /* FTWDevice.m */; };
+		1A4C223515D57AE600C82E61 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A4C223415D57AE600C82E61 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A4C221415D5782400C82E61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A4C21E615D5782400C82E61 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A4C21EE15D5782400C82E61;
+			remoteInfo = FTWDevice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A4C21EF15D5782400C82E61 /* FTWDevice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTWDevice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4C21F315D5782400C82E61 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1A4C21F615D5782400C82E61 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		1A4C21F715D5782400C82E61 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		1A4C21F815D5782400C82E61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1A4C21FB15D5782400C82E61 /* FTWDevice-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTWDevice-Info.plist"; sourceTree = "<group>"; };
+		1A4C21FD15D5782400C82E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A4C21FF15D5782400C82E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A4C220115D5782400C82E61 /* FTWDevice-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FTWDevice-Prefix.pch"; sourceTree = "<group>"; };
+		1A4C220315D5782400C82E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		1A4C220515D5782400C82E61 /* FTWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWAppDelegate.h; sourceTree = "<group>"; };
+		1A4C220615D5782400C82E61 /* FTWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWAppDelegate.m; sourceTree = "<group>"; };
+		1A4C220915D5782400C82E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		1A4C221015D5782400C82E61 /* FTWDeviceTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FTWDeviceTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A4C221115D5782400C82E61 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1A4C221815D5782400C82E61 /* FTWDeviceTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FTWDeviceTests-Info.plist"; sourceTree = "<group>"; };
+		1A4C221A15D5782400C82E61 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1A4C221C15D5782400C82E61 /* FTWDeviceTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FTWDeviceTests.h; sourceTree = "<group>"; };
+		1A4C221D15D5782400C82E61 /* FTWDeviceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FTWDeviceTests.m; sourceTree = "<group>"; };
+		1A4C222B15D5792400C82E61 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		1A4C222C15D5792400C82E61 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		1A4C223015D57A3200C82E61 /* FTWDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWDevice.h; sourceTree = "<group>"; };
+		1A4C223115D57A3200C82E61 /* FTWDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWDevice.m; sourceTree = "<group>"; };
+		1A4C223415D57AE600C82E61 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A4C21EC15D5782400C82E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4C223515D57AE600C82E61 /* IOKit.framework in Frameworks */,
+				1A4C21F415D5782400C82E61 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4C220C15D5782400C82E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4C221215D5782400C82E61 /* SenTestingKit.framework in Frameworks */,
+				1A4C221315D5782400C82E61 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A4C21E415D5782400C82E61 = {
+			isa = PBXGroup;
+			children = (
+				1A4C21F915D5782400C82E61 /* FTWDevice */,
+				1A4C221615D5782400C82E61 /* FTWDeviceTests */,
+				1A4C21F215D5782400C82E61 /* Frameworks */,
+				1A4C21F015D5782400C82E61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1A4C21F015D5782400C82E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A4C21EF15D5782400C82E61 /* FTWDevice.app */,
+				1A4C221015D5782400C82E61 /* FTWDeviceTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A4C21F215D5782400C82E61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A4C223415D57AE600C82E61 /* IOKit.framework */,
+				1A4C21F315D5782400C82E61 /* Cocoa.framework */,
+				1A4C221115D5782400C82E61 /* SenTestingKit.framework */,
+				1A4C21F515D5782400C82E61 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A4C21F515D5782400C82E61 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A4C21F615D5782400C82E61 /* AppKit.framework */,
+				1A4C21F715D5782400C82E61 /* CoreData.framework */,
+				1A4C21F815D5782400C82E61 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		1A4C21F915D5782400C82E61 /* FTWDevice */ = {
+			isa = PBXGroup;
+			children = (
+				1A4C220515D5782400C82E61 /* FTWAppDelegate.h */,
+				1A4C220615D5782400C82E61 /* FTWAppDelegate.m */,
+				1A4C223015D57A3200C82E61 /* FTWDevice.h */,
+				1A4C223115D57A3200C82E61 /* FTWDevice.m */,
+				1A4C222B15D5792400C82E61 /* NSString+MD5.h */,
+				1A4C222C15D5792400C82E61 /* NSString+MD5.m */,
+				1A4C220815D5782400C82E61 /* MainMenu.xib */,
+				1A4C21FA15D5782400C82E61 /* Supporting Files */,
+			);
+			path = FTWDevice;
+			sourceTree = "<group>";
+		};
+		1A4C21FA15D5782400C82E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A4C21FB15D5782400C82E61 /* FTWDevice-Info.plist */,
+				1A4C21FC15D5782400C82E61 /* InfoPlist.strings */,
+				1A4C21FF15D5782400C82E61 /* main.m */,
+				1A4C220115D5782400C82E61 /* FTWDevice-Prefix.pch */,
+				1A4C220215D5782400C82E61 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1A4C221615D5782400C82E61 /* FTWDeviceTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A4C221C15D5782400C82E61 /* FTWDeviceTests.h */,
+				1A4C221D15D5782400C82E61 /* FTWDeviceTests.m */,
+				1A4C221715D5782400C82E61 /* Supporting Files */,
+			);
+			path = FTWDeviceTests;
+			sourceTree = "<group>";
+		};
+		1A4C221715D5782400C82E61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A4C221815D5782400C82E61 /* FTWDeviceTests-Info.plist */,
+				1A4C221915D5782400C82E61 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A4C21EE15D5782400C82E61 /* FTWDevice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A4C222115D5782400C82E61 /* Build configuration list for PBXNativeTarget "FTWDevice" */;
+			buildPhases = (
+				1A4C21EB15D5782400C82E61 /* Sources */,
+				1A4C21EC15D5782400C82E61 /* Frameworks */,
+				1A4C21ED15D5782400C82E61 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTWDevice;
+			productName = FTWDevice;
+			productReference = 1A4C21EF15D5782400C82E61 /* FTWDevice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A4C220F15D5782400C82E61 /* FTWDeviceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A4C222415D5782400C82E61 /* Build configuration list for PBXNativeTarget "FTWDeviceTests" */;
+			buildPhases = (
+				1A4C220B15D5782400C82E61 /* Sources */,
+				1A4C220C15D5782400C82E61 /* Frameworks */,
+				1A4C220D15D5782400C82E61 /* Resources */,
+				1A4C220E15D5782400C82E61 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A4C221515D5782400C82E61 /* PBXTargetDependency */,
+			);
+			name = FTWDeviceTests;
+			productName = FTWDeviceTests;
+			productReference = 1A4C221015D5782400C82E61 /* FTWDeviceTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A4C21E615D5782400C82E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FTW;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = FTW;
+			};
+			buildConfigurationList = 1A4C21E915D5782400C82E61 /* Build configuration list for PBXProject "FTWDevice" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1A4C21E415D5782400C82E61;
+			productRefGroup = 1A4C21F015D5782400C82E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A4C21EE15D5782400C82E61 /* FTWDevice */,
+				1A4C220F15D5782400C82E61 /* FTWDeviceTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A4C21ED15D5782400C82E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4C21FE15D5782400C82E61 /* InfoPlist.strings in Resources */,
+				1A4C220415D5782400C82E61 /* Credits.rtf in Resources */,
+				1A4C220A15D5782400C82E61 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4C220D15D5782400C82E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4C221B15D5782400C82E61 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A4C220E15D5782400C82E61 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A4C21EB15D5782400C82E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4C220015D5782400C82E61 /* main.m in Sources */,
+				1A4C220715D5782400C82E61 /* FTWAppDelegate.m in Sources */,
+				1A4C222D15D5792400C82E61 /* NSString+MD5.m in Sources */,
+				1A4C223215D57A3200C82E61 /* FTWDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A4C220B15D5782400C82E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4C221E15D5782400C82E61 /* FTWDeviceTests.m in Sources */,
+				1A4C222E15D5792400C82E61 /* NSString+MD5.m in Sources */,
+				1A4C223315D57A3200C82E61 /* FTWDevice.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A4C221515D5782400C82E61 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A4C21EE15D5782400C82E61 /* FTWDevice */;
+			targetProxy = 1A4C221415D5782400C82E61 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A4C21FC15D5782400C82E61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A4C21FD15D5782400C82E61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1A4C220215D5782400C82E61 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A4C220315D5782400C82E61 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		1A4C220815D5782400C82E61 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A4C220915D5782400C82E61 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		1A4C221915D5782400C82E61 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A4C221A15D5782400C82E61 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A4C221F15D5782400C82E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1A4C222015D5782400C82E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1A4C222215D5782400C82E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWDevice/FTWDevice-Prefix.pch";
+				INFOPLIST_FILE = "FTWDevice/FTWDevice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1A4C222315D5782400C82E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWDevice/FTWDevice-Prefix.pch";
+				INFOPLIST_FILE = "FTWDevice/FTWDevice-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1A4C222515D5782400C82E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTWDevice.app/Contents/MacOS/FTWDevice";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWDevice/FTWDevice-Prefix.pch";
+				INFOPLIST_FILE = "FTWDeviceTests/FTWDeviceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1A4C222615D5782400C82E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FTWDevice.app/Contents/MacOS/FTWDevice";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FTWDevice/FTWDevice-Prefix.pch";
+				INFOPLIST_FILE = "FTWDeviceTests/FTWDeviceTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A4C21E915D5782400C82E61 /* Build configuration list for PBXProject "FTWDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4C221F15D5782400C82E61 /* Debug */,
+				1A4C222015D5782400C82E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A4C222115D5782400C82E61 /* Build configuration list for PBXNativeTarget "FTWDevice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4C222215D5782400C82E61 /* Debug */,
+				1A4C222315D5782400C82E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1A4C222415D5782400C82E61 /* Build configuration list for PBXNativeTarget "FTWDeviceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A4C222515D5782400C82E61 /* Debug */,
+				1A4C222615D5782400C82E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A4C21E615D5782400C82E61 /* Project object */;
+}
