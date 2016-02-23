@@ -34,6 +34,7 @@ typedef enum {
 	FTWDeviceFamilyMacPro,
 	FTWDeviceFamilyiMac,
 	FTWDeviceFamilyMacMini,
+    	FTWDeviceFamilyXserve,
 	FTWDeviceFamilyUnknown
 } FTWDeviceFamily;
 
