@@ -7,6 +7,7 @@
 //
 
 #import "FTWDevice.h"
+#import <Cocoa/Cocoa.h>
 
 static kern_return_t FindEthernetInterfaces(io_iterator_t *matchingServices);
 static kern_return_t GetMACAddress(io_iterator_t intfIterator, UInt8 *MACAddress, UInt8 bufferSize);
@@ -77,13 +78,7 @@ static kern_return_t GetMACAddress(io_iterator_t intfIterator, UInt8 *MACAddress
 }
 
 - (NSString*) systemVersion {
-	SInt32 versionMajor = 0;
-	SInt32 versionMinor = 0;
-	SInt32 versionBugFix = 0;
-	Gestalt( gestaltSystemVersionMajor, &versionMajor );
-	Gestalt( gestaltSystemVersionMinor, &versionMinor );
-	Gestalt( gestaltSystemVersionBugFix, &versionBugFix );
-	return [NSString stringWithFormat:@"%d.%d.%d", versionMajor, versionMinor, versionBugFix];
+    return [NSProcessInfo processInfo].operatingSystemVersionString;
 }
 
 
@@ -120,7 +115,9 @@ static kern_return_t GetMACAddress(io_iterator_t intfIterator, UInt8 *MACAddress
 		return FTWDeviceFamilyiMac;
 	} else if ([platformVal hasPrefix:@"MacBook"]) {
 		return FTWDeviceFamilyMacBook;
-	}
+    } else if ([platformVal hasPrefix:@"Xserve"]) {
+        return FTWDeviceFamilyXserve;
+    }
 	return FTWDeviceFamilyUnknown;
 }
 
