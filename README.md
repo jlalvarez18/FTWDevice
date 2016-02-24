@@ -29,7 +29,7 @@ FTWDevice is a near-perfect drop-in copy of UIDevice, but built for the Mac. It 
 	@property (assign, nonatomic) FTWDeviceFamily deviceFamily;
 	@property (strong, nonatomic) NSString *serialNumber;
 
-There are some weird behaviors, especially with integer overflows in the disk space and memory properties. Gestalt is deprecated in 10.8, so I’d be interested if anyone has a way to get the system version without Gestalt.
+There are some weird behaviors, especially with integer overflows in the disk space and memory properties.
 
 The other weirdity is that `name` represents the name of the computer on the network, and `localizedName` is the presentable name. This is slightly different from UIDevice’s implementation, but it’s closer to NSHost’s.
 
